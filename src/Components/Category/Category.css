@@ -1,0 +1,77 @@
+.section-banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cat-card {
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px 18px 0px;
+    margin-bottom: 20px;
+    min-height: 180px;
+    margin: 0 12px;
+}
+.cat-card:hover {
+    border-color: #BCE3C9 !important;
+}
+.cat-card .card-img-top {
+    border-radius: 10px !important;
+    display: inline-block;
+    max-width: 80px !important;
+}
+.cat-card .card-body {
+    padding: 0;
+}
+.cat-card .card-title {
+    font-size: 16px;
+    color: #253D4E;
+    font-weight: 700;
+    margin: 0;
+}
+.cat-card .card-text {
+    color: #7E7E7E;
+}
+.cat-header {
+    margin-bottom: 44px;
+}
+.cat-header h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+    line-height: 1.2;
+}
+.cat-header .slick-arrow {
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    font-size: 24px;
+    background: #F2F3F4;
+    border-color: #F2F3F4;
+    border-radius: 50%;
+    color: #7E7E7E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0 0 0;
+}
+.cat-header .slick-arrow:hover {
+    background: #3BB77E;
+    color: #fff;
+}
+.cat-header .slider-prev {
+    margin-right: 10px;
+}
+.cat-header-links .nav-link {
+    padding: 0;
+    margin: 0 26px 0 0;
+    color: #253D4E;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+.cat-header-links .nav-link:hover {
+    color: #3BB77E;
+}

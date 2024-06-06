@@ -1,0 +1,29 @@
+.theme-select .select2-control {
+    border: none;
+    min-height: auto;
+}
+.theme-select span[class$="-indicatorSeparator"] {
+    display: none;
+}
+.theme-select div[class$="-ValueContainer"]{
+    padding: 0;    
+}
+.theme-select div[class$="-singleValue"] {
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+    position: relative;
+}
+.theme-select div[class$="-Input"] {
+    margin: 0;
+    padding: 0;
+}
+.theme-select div[class$="-indicatorContainer"] {
+    padding: 0 ;
+}
+.theme-select div[class$="-indicatorContainer"] svg {
+    width: 14px;
+}
+.theme-select div[class$="-indicatorContainer"] svg path {
+    fill: #7E7E7E;
+}
